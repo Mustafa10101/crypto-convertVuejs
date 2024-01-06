@@ -1,29 +1,20 @@
-# crypto
+# Конвертер Криптовалют
 
-This template should help get you started developing with Vue 3 in Vite.
+Этот проект представляет собой простой веб-интерфейс для конвертации криптовалют. Он позволяет пользователям выбирать между различными криптовалютами, вводить суммы для конвертации и сохранять предпочтительные варианты конвертации в избранное.
 
-## Recommended IDE Setup
+## Основные Функции
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Конвертация между BTC, ETH и USDT.
+- Ввод пользовательских сумм для конвертации.
+- Добавление вариантов конвертации в избранное.
+- Просмотр и выбор из сохраненных вариантов конвертации.
 
-## Customize configuration
+## Технологии
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Vue.js
+- Vite
+- CSS (Scoped Styles)
 
-## Project Setup
+## Использование
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Просто выберите две криптовалюты, введите сумму для конвертации и нажмите кнопку "Конвертировать". Результат будет отображен на экране. Вы также можете добавить вариант конвертации в избранное для быстрого доступа в будущем.
